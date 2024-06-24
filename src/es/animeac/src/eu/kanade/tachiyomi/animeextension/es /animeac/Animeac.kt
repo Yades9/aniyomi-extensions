@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.animeextension.es.animeflv
+package eu.kanade.tachiyomi.animeextension.es.animeac
 
 import android.app.Application
 import android.content.SharedPreferences
@@ -30,11 +30,11 @@ import uy.kohesive.injekt.api.get
 import uy.kohesive.injekt.injectLazy
 import kotlin.Exception
 
-class AnimeFlv : ConfigurableAnimeSource, ParsedAnimeHttpSource() {
+class AnimeAC : ConfigurableAnimeSource, ParsedAnimeHttpSource() {
 
-    override val name = "AnimeFLV"
+    override val name = "Animeac"
 
-    override val baseUrl = "https://www3.animeflv.net"
+    override val baseUrl = "https://animeflv.ac/anime-online.html"
 
     override val lang = "es"
 
